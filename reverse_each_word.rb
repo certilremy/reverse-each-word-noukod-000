@@ -1,5 +1,9 @@
-def  reverse_each_word(sentence)
-  sentence.each do |element|
+sentence = ["abc", "cdf", "eff"]
+
+def reverse_each_word(array)
+  nuarray = []
+  array.map! do |element|
     element.reverse
-  end
-end
+  end 
+array.join(" ")
+end 
