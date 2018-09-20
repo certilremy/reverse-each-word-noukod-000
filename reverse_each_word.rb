@@ -1,4 +1,3 @@
-sentence = ["abc", "cdf", "eff"]
 
 def reverse_each_word(string)
   original_array = string.split(" ")
